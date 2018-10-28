@@ -1,4 +1,20 @@
 .header {
     display: flex;
     justify-content: space-between;
+    background: gray;
+    height: 65px;
+    align-items: center;
 }
+
+.header__main {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.header__links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    font-size: 20px;
+}
+
