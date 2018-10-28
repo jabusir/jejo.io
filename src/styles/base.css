@@ -1,0 +1,9 @@
+body {
+    background: pink;
+}
+
+.dashboard {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+}

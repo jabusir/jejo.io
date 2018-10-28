@@ -1,6 +1,11 @@
 .projects {
     background: yellowgreen;
     height: 400px;
-    width: 100%;
+    width: 95%;
     margin: 10px 0;
+    padding: 15px;
+}
+
+.projects__header{
+    font-size: 30px;
 }

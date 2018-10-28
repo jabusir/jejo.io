@@ -1,13 +1,13 @@
 .header {
     display: flex;
     justify-content: space-between;
-    background: gray;
+    background: lightblue;
     height: 65px;
     align-items: center;
 }
 
 .header__main {
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: 30px;
 }
 
