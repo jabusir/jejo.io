@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/projects.css';
-import MyCarousel from './Carousel';
+import MyCarousel from './MyCarousel';
 
 const Projects =() => (
     <div className="projects"> 
