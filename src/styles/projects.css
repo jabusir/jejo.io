@@ -1,6 +1,6 @@
 .projects {
     background: yellowgreen;
-    height: 400px;
+    height: 460px;
     width: 95%;
     margin: 10px 0;
     padding: 15px;
@@ -8,4 +8,9 @@
 
 .projects__header{
     font-size: 30px;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
 }
