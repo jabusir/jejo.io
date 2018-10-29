@@ -14,3 +14,13 @@
     display: flex;
     justify-content: center;
 }
+
+.carousel .slide {
+
+    min-width: 100%;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    background: red;
+
+}

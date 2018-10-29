@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import AboutMe from './AboutMe';
-//import Projects from './Projects';
+import Projects from './Projects';
 import Contact from './Contact';
 import '../styles/base.css';
-import MyCarousel from './MyCarousel';
 
 class Dashboard extends Component {
   render() {
@@ -13,7 +12,7 @@ class Dashboard extends Component {
         <Header />
         <div className="dashboard">
             <AboutMe />
-            <MyCarousel />
+            <Projects />
             <Contact />
         </div>
       </div>
