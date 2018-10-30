@@ -1,7 +1,7 @@
 .header {
+    font-family: 'Oswald', sans-serif;
     display: flex;
     justify-content: space-between;
-    background: lightblue;
     height: 65px;
     align-items: center;
 }
@@ -18,3 +18,7 @@
     font-size: 20px;
 }
 
+.empty-div {
+    height: 1px;
+    background: lightgray;
+}

@@ -1,12 +1,16 @@
 .contact {
-    background: turquoise;
-    height: 400px;
-    width: 95%;
+    background: lightgrey;
+    height: 200px;
+    width: 100%;
     margin: 10px 0;
     padding: 15px 15px;
 }
 
 .contact__header{
     font-size: 30px;
+    margin-left: 15px;
+}
+
+.contact__text {
     margin-left: 15px;
 }

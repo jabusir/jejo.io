@@ -1,22 +1,32 @@
 .about-me {
-    background: purple;
-    height: 400px;
-    width: 95%;
+    height: 80vh;
     margin: 10px 0;
     padding: 15px 15px;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: lightblue;
 }
 
 .about-me__header {
     font-size: 30px;
+    margin: 10px 0;
 }
 
 .about-me__body {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 500px;
+    margin-top: 10px;
+    font-size: 20px;
 }
 
 .about-me__text {
     height: 100%;
+}
+
+.footer {
+    font-size: 30px;
+}
+
+.skills-container {
+    background: pink;  
 }

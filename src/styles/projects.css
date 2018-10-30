@@ -1,26 +1,31 @@
 .projects {
-    background: yellowgreen;
-    height: 460px;
-    width: 95%;
+    height: 100vh;
+    width: 100%;
     margin: 10px 0;
     padding: 15px;
-}
-
-.projects__header{
-    font-size: 30px;
-}
-
-.carousel-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
-.carousel .slide {
 
-    min-width: 100%;
-    margin: 0;
-    position: relative;
+
+
+.subheader {
+    height: 40px;
     text-align: center;
-    background: red;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 20px;
+}
 
+.jukebox-body{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+.header-container {
+    display: flex;
 }
