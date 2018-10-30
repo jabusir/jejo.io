@@ -8,7 +8,7 @@ const Header = () => (
 <div>
     <div className="empty-div"></div>
     <div className="header">
-        <div className="header__main">jejo.io</div>
+        <img src="./images/jejo.io.jpg" alt="jejo.io" height={200} width={400}/>
         <div className="header__links">
             <Link to="about-me__header" spy smooth duration={700}>about me</Link>
             <Link to="footer" spy smooth duration={700}>projects</Link>
