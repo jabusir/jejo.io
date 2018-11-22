@@ -1,0 +1,23 @@
+.skills-icons {
+    font-size: 100px;
+}
+
+.skills-container {
+    margin-left: 50px;
+    padding: 20px 20px;
+    font-size: 25px;
+    border-radius: 25px;
+    border: 2px solid;
+    margin-bottom: 73px;
+    width: 700px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.skils-text {
+    margin-bottom: 10px;
+}

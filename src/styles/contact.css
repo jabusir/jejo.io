@@ -1,9 +1,8 @@
 .contact {
     background: lightgrey;
     height: 200px;
-    width: 100%;
-    margin: 10px 0;
-    padding: 15px 15px;
+    padding: 15px 30px;
+    margin-top: 15px;
 }
 
 .contact__header{
@@ -13,4 +12,10 @@
 
 .contact__text {
     margin-left: 15px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    font-size: 100;
 }

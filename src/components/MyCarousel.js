@@ -6,15 +6,15 @@ export default class MyCarousel extends React.Component {
     render() {
         return (
             <div>
-                <Carousel showStatus={false} showThumbs={false} dynamicHeight={true} width={500}>
+                <Carousel showStatus={false} showThumbs={false} dynamicHeight={true} width={600}>
                     <div>
-                        <img src="./images/authorize.png" alt="authorize" height={400} width={400} />
+                        <img src="./images/authorize.png" alt="authorize" height={500} width={600} />
                     </div>
                     <div>
-                        <img src="./images/playlists.png" alt="playlists" height={400} width={400} />
+                        <img src="./images/playlists.png" alt="playlists" height={500} width={600} />
                     </div>
                     <div>
-                        <img src="./images/voting.png" alt="voting" height={400} width={400} />
+                        <img src="./images/voting.png" alt="voting" height={500} width={600} />
                     </div>
                 </Carousel>
             </div>

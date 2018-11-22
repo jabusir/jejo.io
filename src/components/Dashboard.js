@@ -8,7 +8,7 @@ import '../styles/base.css';
 class Dashboard extends Component {
   render() {
     return (
-      <div>
+      <div className="dashboard-container">
         <Header />
         <div className="dashboard">
             <AboutMe />
