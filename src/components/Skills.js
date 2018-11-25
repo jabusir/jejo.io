@@ -4,7 +4,7 @@ import '../styles/skills.css';
 
 const Skills = () => (
     <div className="skills-container">
-        <div className="skils-text">This is what I know:</div>
+        <div className="skils-text">This is what I enjoy building with:</div>
         <div className="skills-icons">
             <i class="devicon-javascript-plain colored"></i>
             <i class="devicon-html5-plain-wordmark colored"></i>

@@ -13,7 +13,7 @@ const AboutMe = () => (
                         <div>Currently, I'm in the final year of finishing my Bachelor's in Economics with an emphasis in Data Analysis, along with a minor in Computer Science</div>
                     </div>
                 </div>
-                <Skills />
+                <div className="container"><Skills /></div>
             </div>
             <div className="footer">Here are some projects I've worked on in the meantime...</div>
     </div>

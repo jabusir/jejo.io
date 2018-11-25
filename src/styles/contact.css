@@ -1,6 +1,5 @@
 .contact {
     background: lightgrey;
-    height: 200px;
     padding: 15px 30px;
     margin-top: 15px;
 }
@@ -11,11 +10,13 @@
 }
 
 .contact__text {
-    margin-left: 15px;
+    margin: 10px 15px;
 }
 
 .icons {
     display: flex;
-    justify-content: center;
-    font-size: 100;
-}
+    justify-content: space-evenly;
+    font-size: 50px;
+    margin-top: 5px;
+} 
+
