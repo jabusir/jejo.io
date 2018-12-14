@@ -8,6 +8,14 @@
     top: 0;
     left: 0;
     width: 100%;
+    padding: 40px 50px;
+    z-index: 2;
+    transition: background 300ms ease-in-out, box-shadow 300ms ease-in-out;
+}
+
+.header--transition {
+    background-color: white;
+    box-shadow: 0 1px 8px #0006;
 }
 
 .header__main {
@@ -33,4 +41,17 @@
 
 .image-container {
     margin-top: 5px;
+}
+
+.header__links > * {
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .header__links {
+        display: none;
+    }  
+    .header {
+        justify-content: center;
+    }
 }

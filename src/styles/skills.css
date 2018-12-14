@@ -1,5 +1,8 @@
 .skills-icons {
     font-size: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .skills-container {
@@ -9,16 +12,28 @@
     border-radius: 25px;
     border: 2px solid;
     margin-bottom: 73px;
-    width: 700px;
+    max-width: 750px;
+    margin: auto;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    margin-right: 50px;
+    position: relative;
     margin-bottom: 20px;
 }
 
 .skils-text {
     margin-bottom: 10px;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+

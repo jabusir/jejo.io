@@ -6,7 +6,7 @@ export default class MyCarousel extends React.Component {
     render() {
         return (
             <div>
-                <Carousel showStatus={false} showThumbs={false} dynamicHeight={true} width={600}>
+                <Carousel showStatus={false} showThumbs={false} dynamicHeight={true} width="600px">
                     <div>
                         <img src="./images/authorize.png" alt="authorize" height={500} width={600} />
                     </div>
