@@ -1,7 +1,6 @@
 .projects {
     width: 100%;
     margin: 100px 0;
-    display: flex;
     align-items: center;
     justify-content: space-evenly;
     overflow-x: hidden;
@@ -40,7 +39,7 @@
     border: 3px solid #eee;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1300px) {
     .projects {
         display: flex;
         flex-direction: column;

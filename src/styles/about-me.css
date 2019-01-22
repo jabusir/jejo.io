@@ -43,3 +43,21 @@
 .skills-box{
     height: 30%;
 }
+
+@media (max-width: 500px) {
+    .about-me {
+        padding: 0 0;
+    }
+
+    .about-me__header {
+        font-size: 40px;
+        margin: 10px 0;
+        text-align: left;
+    }
+    
+    .about-me__body {
+        margin-top: 10px;
+        font-size: 40px;
+        text-align: left;
+    }
+}

@@ -12,12 +12,12 @@ export default class Header extends React.Component {
 
     componentDidMount() {
         window.addEventListener('scroll', (e) => {
-            if (window.scrollY >= 189) {
+            if (window.scrollY >= 1) {
                 if (!this.state.willTransition) {
                     this.setState(() => ({willTransition: true}));
                 }
             }
-            if (window.scrollY <= 189) {
+            if (window.scrollY <= 1) {
                 if (this.state.willTransition) {
                     this.setState(() => ({willTransition: false}))
                 }

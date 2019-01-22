@@ -1,0 +1,26 @@
+.images-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.image {
+    border: 2px solid grey;
+    border-radius: 25px;
+    height: 507px;
+    width: 440px;
+}
+
+.image-left {
+    background-image: url("../static/authorize.png")
+}
+
+.image-middle {
+    background-image: url("../static/playlists.png")
+}
+
+.image-right {
+    background-image: url("../static/voting.png")
+}

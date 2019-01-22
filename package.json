@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "debundle": "^0.5.4",
     "react": "^16.6.0",
     "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.6.0",
@@ -14,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && aws s3 sync build/ s3://jejo.me"
+
   },
   "eslintConfig": {
     "extends": "react-app"
