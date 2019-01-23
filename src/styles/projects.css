@@ -6,11 +6,6 @@
     overflow-x: hidden;
 }
 
-.project {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .project-body {
     margin: 10px 0;
@@ -37,6 +32,10 @@
 
 .unmapped img {
     border: 3px solid #eee;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%)
 }
 
 @media (max-width: 1300px) {

@@ -34,7 +34,7 @@ export default class Header extends React.Component {
                         <img src="./images/jejo.io.jpg" alt="jejo.io" height={40} width={150}/>
                     </div>
                     <div className="header__links">
-                        <Link to="about-me__header" spy smooth duration={700}>about me</Link>
+                        <Link to="about-me-container" spy smooth duration={700}>about me</Link>
                         <Link to="footer" spy smooth duration={700}>projects</Link>
                         <Link to="contact__header" spy smooth duration={700}>contact</Link>
                     </div>

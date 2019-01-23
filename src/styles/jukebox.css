@@ -8,7 +8,7 @@
 
 .image {
     border: 2px solid grey;
-    border-radius: 25px;
+    border-radius: 10px;
     height: 507px;
     width: 440px;
 }
@@ -23,4 +23,14 @@
 
 .image-right {
     background-image: url("../static/voting.png")
+}
+
+@media (max-width: 1400px) {
+    .images-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .image {
+        margin: 5px 10px;
+    }
 }

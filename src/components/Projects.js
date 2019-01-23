@@ -14,7 +14,7 @@ const Projects = () => (
                 <div className="subheader">Unmapped.io</div>
                 <div className="project-body">Meeting and making friends in new places</div>
                 <a href="http://www.unmapped.co">
-                    <img src="./images/unmapped.png" alt="unmapped" height={700} width={1300}/>
+                    <img src="./images/unmapped.png" alt="unmapped" />
                 </a>
             </div>
         </div>
