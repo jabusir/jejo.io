@@ -10,9 +10,18 @@
 .project-body {
     margin: 10px 0;
     text-align: center;
+    width: 50%;
 }
 
 .subheader {
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.subheader-juke {
     height: 40px;
     text-align: center;
     font-size: 30px;
@@ -25,6 +34,18 @@
     margin-bottom: 20px;
 }
 
+.project-body-juke {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.jukebox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 
 .header-container {
     display: flex;
@@ -32,11 +53,18 @@
 
 .unmapped img {
     border: 3px solid #eee;
-    width: 80%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%)
+    width: 50%;
+    margin-left: 10px;
 }
+
+.flipit-img {
+    background: green;
+} 
+
+.flipit {
+    width: 50%;
+}
+
 
 @media (max-width: 1300px) {
     .projects {
