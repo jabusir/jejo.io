@@ -1,74 +1,41 @@
-.projects {
-    width: 100%;
-    margin: 100px 0;
-    align-items: center;
-    justify-content: space-evenly;
-    overflow-x: hidden;
-}
-
-
-.project-body {
-    margin: 10px 0;
-    text-align: center;
-    width: 50%;
-}
-
-.subheader {
-    height: 40px;
-    text-align: center;
-    font-size: 30px;
-    width: 50%;
-    margin-top: 20px;
-}
-
-.subheader-juke {
-    height: 40px;
-    text-align: center;
-    font-size: 30px;
-    width: 100%;
-    margin-top: 20px;
-}
-
-.jukebox-body{
-    margin-left: 10px;
-    margin-bottom: 20px;
-}
-
-.project-body-juke {
-    width: 100%;
-    text-align: center;
-    margin: 10px 0;
-}
-
-.jukebox {
+.project-container {
+    width: 75%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    margin: 0 auto;
+}
+
+.project-image {
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+.project-container--multi {
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project {
+    text-align: center;
+}
+
+.project-header {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.project-desc {
+    margin: 25px 0;
 }
 
 
-.header-container {
-    display: flex;
-}
-
-.unmapped img {
-    border: 3px solid #eee;
-    width: 50%;
-    margin-left: 10px;
-}
-
-.flipit-img {
-    background: green;
-} 
-
-.flipit {
-    width: 50%;
-}
-
-
-@media (max-width: 1300px) {
-    .projects {
-        display: flex;
-        flex-direction: column;
+@media (max-width: 1200px) {
+    .project-container--multi {
+        justify-content: space-evenly;
     }
+    
 }

@@ -5,7 +5,7 @@ import Mail from './Mail';
 const Contact = () => (
     <div className="contact">
         <div className="contact__header">contact me</div>
-        <div className="contact__text">Please feel free to reach out to me for any additional information, project inquiries, or just to grab a cup of coffee.</div>
+        <div className="contact__text">Feel welcome to reach out to me for my resume, project inquiries, or just to grab a cup of coffee.</div>
         <div className="icons">
             <div className="icon linkedin">
                 <a href="https://www.linkedin.com/in/jabusir" target="_blank" rel="noopener noreferrer">
@@ -19,11 +19,6 @@ const Contact = () => (
             </div>
             <div className="icon mail">
                 <Mail />
-            </div>
-            <div className="icon download">
-                <a href="./resume/JehadAbusir.pdf" download="JehadAbusir.pdf">
-                    <img src='./images/download.png' alt="download" height={50} width={50} />
-                </a>
             </div>
         </div>
     </div>
