@@ -7,7 +7,6 @@
     justify-content: space-evenly;
     min-height: 500px;
     text-align: center;
-    color: white;
 }
 
 .about-me-container {
@@ -39,6 +38,27 @@
 
 .skills-box{
     height: 30%;
+}
+
+#zombie {
+    position: relative;
+    top: -15vh;
+    left: 258vh;
+    animation: zombie 15s;
+    -moz-animation: zombie 15s;
+    -webkit-animation: zombie 15s;
+    transition: all ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes zombie {
+    from {right: 0;}
+    to {left: 0;}
+}
+
+@-moz-keyframes zombie {
+    from {right: 0;}
+    to {left: 0;}
 }
 
 @media (max-width: 500px) {

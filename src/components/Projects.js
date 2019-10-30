@@ -1,6 +1,7 @@
 import React from 'react';
 
 import '../styles/projects.css';
+import ProjectCard from './ProjectCard';
 
 export default class extends React.Component {
     state = {
@@ -13,7 +14,7 @@ export default class extends React.Component {
             {
                 name: 'Unmapped.io',
                 desc: 'Meeting and making friends in new places.',
-                images: ['./images/unmapped.png']
+                images: ['./images/unmapped.png', './images/interests.PNG', './images/info.PNG']
             },
             {
                 name: 'Flipit',
@@ -47,13 +48,11 @@ export default class extends React.Component {
     render() {
         return (
             <div className="projects-container">
-                {this.state.projects.map((project) => (
-                    <div className="project">
-                        <div className="project-header">{project.name}</div>
-                        <div className="project-desc">{project.desc}</div>
-                        {this.renderImages(project.images)}
-                    </div>
-                ))}
+                {
+                    this.state.projects.map((project) => (
+                        <ProjectCard name={project.name} desc={project.desc} images={project.images}/>
+                    ))
+                }
             </div>
         );
     }
