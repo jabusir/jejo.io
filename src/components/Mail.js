@@ -24,7 +24,9 @@ export default class Mail extends React.Component {
                         }
                     }
                 >
-                    <img className="mail-icon" src="./images/mail.png" alt="mail" height={50} width={50}/>
+                    <a href="https://mail.google.com/mail/u/0/?fs=1&view=cm&shva=1&su&to=jaabusir@ucdavis.edu&tf=1">
+                        <img className="mail-icon" src="./images/mail.png" alt="mail" height={50} width={50}/>
+                    </a>
                 </CopyToClipboard>
             </div>
         );

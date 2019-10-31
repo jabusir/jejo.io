@@ -1,37 +1,28 @@
-.project-image-container {
-    max-height: 500px;
-}
-
 .carousel.carousel-slider {
     border-radius: 10px
 }
 
-.project-container--multi {
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    flex-direction: row;
+.projects-container {
+    display: flex;
     flex-wrap: wrap;
 }
 
-.project {
-    text-align: center;
+.project-container {
+    display: flex;
+    margin: 15px 25px;
 }
 
-.project-header {
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: 50px;
+.carousel-container {
+    width: 500px
 }
 
-.project-desc {
-    margin: 25px 0;
+.right {
+    margin: auto
 }
 
-
-@media (max-width: 1200px) {
-    .project-container--multi {
-        justify-content: space-evenly;
+@media (max-width: 500px) {
+    .carousel-container {
+        width: 100%;
     }
     
 }

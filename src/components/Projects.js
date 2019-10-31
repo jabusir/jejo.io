@@ -9,7 +9,7 @@ export default class extends React.Component {
             {
                 name: 'Jukebox.io',
                 desc: 'A Spotify powered extension for Twitch.tv. Building community through music.',
-                images: ['./images/voting.png', './images/authorize.png', './images/playlists.png']
+                images: ['./images/frame-2.png', './images/frame-2.1.png', './images/frame-2.2.png', './images/frame-2.3.png']
             },
             {
                 name: 'Unmapped.io',
@@ -19,7 +19,7 @@ export default class extends React.Component {
             {
                 name: 'Flipit',
                 desc: 'A decentralized marketplace.',
-                images: ['./images/2-Product-Grid.png']
+                images: ['./images/1-Homepage.png', './images/2-Product-Grid.png', './images/3-Product-Decision-1.png', './images/5-Autorizing.png', './images/6-Congrats.png']
             }
         ]
     }
