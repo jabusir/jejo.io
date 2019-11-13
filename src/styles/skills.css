@@ -12,6 +12,7 @@
     border-radius: 25px;
     margin-bottom: 73px;
     margin: auto;
+    width: 100%;
 }
 
 .container {
@@ -19,6 +20,9 @@
     margin-bottom: 20px;
 }
 
+.colored {
+    margin: 10px 15px;
+}
 
 a {
     text-decoration: none;
