@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Header from './Header';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
-import Contact from './Contact';
+import Footer from './Footer';
+
 import '../styles/base.css';
 
 class Dashboard extends Component {
@@ -13,7 +14,7 @@ class Dashboard extends Component {
         <div className="dashboard">
             <AboutMe />
             <Projects />
-            <Contact />
+            <Footer />
         </div>
       </div>
     );

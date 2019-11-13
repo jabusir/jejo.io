@@ -6,13 +6,12 @@ import '../styles/about-me.css'
 
 
 const AboutMe = () => (
-    <div>
+    <div className="box">
         <div className="about-me-container">
             <div className="about-me">
                 <div className="about-me__header">Hi, I'm Jehad, but my dev team calls me Jejo</div>
                 <div className="about-me__header">I'm a Software Engineer looking for new and exciting opportunites to perpetually refine my chunks</div>
             </div>
-                <img id="zombie" src="./images/zombie.gif" />
                 <div className="container"><Skills /></div>
         </div>
         <div className="footer">Here are some projects I've worked on in the meantime...</div>

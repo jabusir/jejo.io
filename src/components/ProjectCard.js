@@ -9,8 +9,8 @@ export default class ProjectCard extends React.Component {
 
         return (
             <div className="project-container">
-                <div className="left">
-                    <div className="project-name">{this.props.name}</div>
+                <div className="project-name">{this.props.name}</div>
+                <div className="bottom">
                     <div className="carousel-container">
                         <Carousel showIndicators={false} showStatus={false}>
                             {this.props.images.map((image) => (
@@ -20,8 +20,6 @@ export default class ProjectCard extends React.Component {
                             ))}
                         </Carousel>
                     </div>
-                </div>
-                <div className="right">
                     <div className="project-desc">{this.props.desc}</div>
                </div>
             </div>

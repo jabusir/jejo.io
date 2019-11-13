@@ -3,10 +3,14 @@
     padding: 15px 80px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
     min-height: 500px;
     text-align: center;
+}
+
+.box {
+    height: 100vh;
 }
 
 .about-me-container {
@@ -15,7 +19,7 @@
 
 .about-me__header {
     font-size: 30px;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .particles {
