@@ -11,14 +11,14 @@ const Footer = () => {
     return (
         <div className="footer-container">
             <div className="icons-container">
-                <div className="icon linkedin">
+                <div className="icon" id="linkedin">
                     <a target="_blank" href="https://www.linkedin.com/in/jabusir">
                         <i class="fab fa-linkedin"></i>
                     </a>
                 </div>
                 <div className="icon github">
                     <a  target="_blank" href="https://github.com/jabusir">
-                        <i class="fab fa-github"></i>
+                        <i class="fab fa-github" id=""></i>
                     </a>
                 </div>
                 <div className="icon mail">
