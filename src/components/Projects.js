@@ -37,26 +37,6 @@ export default class extends React.Component {
         ]
     }
 
-    renderImages = (images) => {
-        if (images.length > 1 ) {
-            return (
-                <div className="project-container project-container--multi">
-                    {images.map((image) => (
-                        <img className="project-image" src={`${image}`} alt="project" height={400} width={300}/>
-                    ))}
-                </div>            
-            );
-        }
-        else {
-            return (
-                <div className="project-container project-container--single">
-                    <img className="project-image" src={images[0]} alt="project"/>
-                </div>
-            );
-        }
-    }
-
-
 
     render() {
         return (
