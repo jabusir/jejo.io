@@ -36,7 +36,7 @@ export default class Header extends React.Component {
                     <div className="header__links">
                         <Link to="about-me-container" spy smooth duration={700}>about me</Link>
                         <Link to="footer" spy smooth duration={700}>projects</Link>
-                        <Link to="contact__header" spy smooth duration={700}>contact</Link>
+                        <Link to="footer-container" spy smooth duration={700}>contact</Link>
                     </div>
                 </div>
             </div>

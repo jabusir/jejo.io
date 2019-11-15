@@ -3,6 +3,7 @@ import Header from './Header';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
 import Footer from './Footer';
+import Skills from './Skills';
 
 import '../styles/base.css';
 

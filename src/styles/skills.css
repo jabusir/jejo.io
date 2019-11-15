@@ -7,7 +7,6 @@
 
 .skills-container {
     margin-left: 50px;
-    padding: 20px 20px;
     font-size: 25px;
     border-radius: 25px;
     margin-bottom: 73px;
@@ -18,6 +17,8 @@
 .container {
     position: relative;
     margin-bottom: 20px;
+    width: 90%;
+    background: white;
 }
 
 .colored {
