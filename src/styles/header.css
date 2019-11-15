@@ -11,11 +11,21 @@
     padding: 40px 50px;
     z-index: 10;
     transition: background 300ms ease-in-out, box-shadow 300ms ease-in-out;
+    color: white;
 }
 
 .header--transition {
     background-color: white;
     box-shadow: 0 1px 8px #0006;
+    color: black;
+}
+
+.image-container {
+    filter: invert(1)
+}
+
+.image-container-trans {
+    filter: invert(0)
 }
 
 .header__main {

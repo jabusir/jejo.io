@@ -21,7 +21,7 @@ export default class extends React.Component {
                 desc: [
                         'A Spotify powered extension for Twitch.tv. Building community through music.', 
                         'Worked as a frontend engineer with a sole backend engineer to bring product to final phase of review',
-                        'Built with React, Node, Express, and MonogoDB'
+                        'Built with React, Redux, Node, Express, and MonogoDB'
                     ],
                 images: ['./images/frame-2.png', './images/frame-2.1.png', './images/frame-2.2.png', './images/frame-2.3.png']
             },
@@ -32,7 +32,7 @@ export default class extends React.Component {
                         'Worked as a frontend engineer on a team of two, using GitHub for collaboration and project management in accordance with the Scrum Framework',
                         'Built with React'
                     ],
-                images: ['./images/unmapped.png', './images/interests.PNG', './images/info.PNG']
+                images: ['./images/unmapped.png', './images/interests.png', './images/info.png']
             }
         ]
     }

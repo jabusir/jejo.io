@@ -1,6 +1,5 @@
 .footer-container {
     height: 50px;
-    background: wheat;
     display: flex;
     align-items: center;
 }
@@ -25,10 +24,12 @@
     margin: auto;
     width: 800px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
 .icon {
     font-size: 30px;
+    margin: 0 5px;
+    cursor: pointer;
 }
