@@ -6,12 +6,13 @@
 }
 
 .skills-container {
-    margin-left: 50px;
     font-size: 25px;
     border-radius: 25px;
-    margin-bottom: 73px;
-    margin: auto;
-    width: 100%;
+    margin: 0 auto;
+    width: 75%;
+    margin-top: -4rem;
+    box-shadow: 0 4px 20px rgba(44,62,80,.329);
+    background: white;
 }
 
 .container {

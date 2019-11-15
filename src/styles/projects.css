@@ -2,9 +2,13 @@
     border-radius: 10px
 }
 
+.projects-header {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px auto;
+}
+
 .projects-container {
-    display: flex;
-    flex-wrap: wrap;
     max-width: 100%;
 }
 
@@ -21,9 +25,13 @@
     margin-bottom: 10px;
 }
 
+.project-desc-container {
+    margin: 50px 15px;
+    width: 50%;
+}
+
 .project-desc {
     font-size: 20px;
-    margin: 0 10px;
 }
 
 .carousel-container {
@@ -33,6 +41,10 @@
 .bottom {
     margin: auto;
     display: flex;
+}
+
+.bullet {
+    margin: 20px 5px;
 }
 
 @media (max-width: 500px) {
@@ -45,7 +57,7 @@
         max-width: 375px;
     }
 
-    .project-desc {
+    .project-desc-container {
         display: none;
     }
     

@@ -31,7 +31,7 @@ export default class Header extends React.Component {
                 <div className="empty-div"></div>
                 <div className={this.state.willTransition ? "header header--transition" : "header"}>
                     <div className="image-container">
-                        <img src="./images/jejo.io.jpg" alt="jejo.io" height={40} width={150}/>
+                        <img src="./images/jejo.png" alt="jejo.io" height={40} width={150}/>
                     </div>
                     <div className="header__links">
                         <Link to="about-me-container" spy smooth duration={700}>about me</Link>

@@ -14,6 +14,7 @@ class Dashboard extends Component {
         <Header />
         <div className="dashboard">
             <AboutMe />
+            <Skills />
             <Projects />
             <Footer />
         </div>

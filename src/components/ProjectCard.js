@@ -22,8 +22,8 @@ export default class ProjectCard extends React.Component {
                     <div className="project-desc-container">
                         <div className="project-desc">{this.props.desc[0]}</div>
                         <ul>
-                            <li>{this.props.desc[1]}</li>
-                            <li>{this.props.desc[2]}</li>
+                            <li className="bullet">{this.props.desc[1]}</li>
+                            <li className="bullet">{this.props.desc[2]}</li>
                         </ul>
                     </div>
                </div>

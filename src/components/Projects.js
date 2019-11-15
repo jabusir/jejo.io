@@ -7,6 +7,16 @@ export default class extends React.Component {
     state = {
         projects: [
             {
+                name: 'Flipit',
+                desc: [
+                        'A decentralized marketplace built at the YCombinator 2019 hackathon.',
+                        'Was a lead frontend engineer on a team of five to complete building a functioning MVP within 24 hours',
+                        'Built with React, MetaMask, and dynamoDB'
+
+                    ],
+                images: ['./images/1-Homepage.png', './images/2-Product-Grid.png', './images/3-Product-Decision-1.png', './images/5-Autorizing.png', './images/6-Congrats.png']
+            },
+            {
                 name: 'Jukebox.io',
                 desc: [
                         'A Spotify powered extension for Twitch.tv. Building community through music.', 
@@ -20,18 +30,9 @@ export default class extends React.Component {
                 desc: [
                         'Meeting and making friends in new places.',
                         'Worked as a frontend engineer on a team of two, using GitHub for collaboration and project management in accordance with the Scrum Framework',
-                        'Built with React, MetaMask, and dynamoDB'
-                    ],
-                images: ['./images/unmapped.png', './images/interests.PNG', './images/info.PNG']
-            },
-            {
-                name: 'Flipit',
-                desc: [
-                        'A decentralized marketplace built at the YCombinator 2019 hackathon.',
-                        'Was a lead frontend engineer on a team of five to complete building a functioning MVP within 24 hours',
                         'Built with React'
                     ],
-                images: ['./images/1-Homepage.png', './images/2-Product-Grid.png', './images/3-Product-Decision-1.png', './images/5-Autorizing.png', './images/6-Congrats.png']
+                images: ['./images/unmapped.png', './images/interests.PNG', './images/info.PNG']
             }
         ]
     }
@@ -60,6 +61,7 @@ export default class extends React.Component {
     render() {
         return (
             <div className="projects-container">
+                <div className="projects-header">Projects</div>
                 {
                     this.state.projects.map((project) => (
                         <ProjectCard name={project.name} desc={project.desc} images={project.images}/>
