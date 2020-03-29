@@ -1,64 +1,74 @@
 .carousel.carousel-slider {
-    border-radius: 10px
+  border-radius: 10px;
 }
 
 .projects-header {
-    font-size: 40px;
-    text-align: center;
-    margin: 20px auto;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px auto;
 }
 
 .projects-container {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .project-container {
-    margin: 15px 25px;
-    max-width: 800px;
-    margin: 0 auto;
-    display: flex;
+  margin: 15px 25px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
 }
 
-.project-name{ 
-    text-align: center;
-    font-size: 25px;
-    margin-bottom: 10px;
+.project-name {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 
 .project-desc-container {
-    margin: 50px 15px;
-    width: 50%;
+  margin: 50px 15px;
+  width: 50%;
 }
 
 .project-desc {
-    font-size: 20px;
+  font-size: 20px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .carousel-container {
-    width: 50%;
+  width: 50%;
 }
 
 .bottom {
-    margin: auto;
-    display: flex;
+  margin: auto;
+  display: flex;
 }
 
 .bullet {
-    margin: 20px 5px;
+  margin: 20px 5px;
+}
+
+.project-image {
+  height: 300px;
+  width: 400px;
 }
 
 @media (max-width: 500px) {
-    .project-container, .carousel-container {
-        width: 100%;
-        margin: 0;
-    }
-    .bottom {
-        flex-direction: column;
-        max-width: 375px;
-    }
+  .project-container,
+  .carousel-container {
+    width: 100%;
+    margin: 0;
+  }
+  .bottom {
+    flex-direction: column;
+    max-width: 375px;
+  }
 
-    .project-desc-container {
-        display: none;
-    }
-    
+  .project-desc-container {
+    display: none;
+  }
 }
