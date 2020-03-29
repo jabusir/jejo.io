@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../styles/mailer.css";
-const API_PATH = "http://localhost:3000/jejo.io/api/contact/index.php";
 
 const Mailer = () => {
   const [name, setName] = useState();
@@ -11,7 +10,7 @@ const Mailer = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    fetch(`${API_PATH}`, {
+    fetch(``, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
