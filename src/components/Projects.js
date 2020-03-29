@@ -14,6 +14,7 @@ export default class extends React.Component {
           "In addition to working as a frontend engineer building the ecommerce client, I switched to a full stack role building a content resource manager for the frontend client",
           "Built with React, Redux, TypeScript, Node, Express, and MongoDB"
         ],
+        face: "./images/BnB/bnb-logo.png",
         images: [
           "./images/BnB/flow-1.png",
           "./images/BnB/flow-1.png",
@@ -27,11 +28,12 @@ export default class extends React.Component {
           "Worked as a frontend engineer with a sole backend engineer to bring product to production with over a hundred installs in the first week",
           "Built with React, Redux, Node, Express, and MonogoDB"
         ],
+        face: "./images/jukebox/juke-logo.png",
         images: [
-          "./images/frame-2.png",
-          "./images/frame-2.1.png",
-          "./images/frame-2.2.png",
-          "./images/frame-2.3.png"
+          "./images/jukebox/frame-2.png",
+          "./images/jukebox/frame-2.1.png",
+          "./images/jukebox/frame-2.2.png",
+          "./images/jukebox/frame-2.3.png"
         ]
       },
       {
@@ -41,6 +43,7 @@ export default class extends React.Component {
           "Worked as a frontend engineer on a team of two, using GitHub for collaboration and project management in accordance with the Scrum Framework",
           "Built with React"
         ],
+        face: "./images/unmapped-logo.png",
         images: [
           "./images/unmapped.png",
           "./images/interests.png",
@@ -53,13 +56,14 @@ export default class extends React.Component {
   render() {
     return (
       <div className="projects-container">
-        <div className="projects-header">Projects</div>
+        <div className="projects-header">Featured Works</div>
         <div className="cards-container">
           {this.state.projects.map(project => (
             <ProjectCard
               name={project.name}
               desc={project.desc}
               images={project.images}
+              face={project.face}
             />
           ))}
         </div>

@@ -6,11 +6,15 @@
   font-size: 40px;
   text-align: center;
   margin: 20px auto;
+  margin-top: 90px;
 }
 
 .projects-container {
   max-width: 100%;
   background: white;
+  margin-top: -70px;
+  padding-top: 15px;
+  height: 600px;
 }
 
 .project-container {
@@ -18,6 +22,38 @@
   max-width: 800px;
   margin: 0 auto;
   display: flex;
+  position: relative;
+}
+
+.project-desc {
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  background: #9197ae;
+  width: 100%;
+  opacity: 0;
+  /* transition: opacity 300ms ease-in-out 175ms, transform 300ms ease-in-out; */
+  line-height: 1.5;
+  transform: translateY(50%);
+  padding-left: 10px;
+}
+
+@keyframes slide {
+  0% {
+  }
+  75% {
+    opacity: 20;
+  }
+  100% {
+    opacity: 100;
+    transform: translateY(0);
+  }
+}
+
+.project-container:hover > .project-desc {
+  /* opacity: 100;
+  transform: translateY(0); */
+  animation: slide 300ms 1 forwards;
 }
 
 .project-name {
@@ -29,10 +65,6 @@
 .project-desc-container {
   margin: 50px 15px;
   width: 50%;
-}
-
-.project-desc {
-  font-size: 20px;
 }
 
 .cards-container {
@@ -63,6 +95,9 @@
   .carousel-container {
     width: 100%;
     margin: 0;
+  }
+  .projects-container {
+    height: 100%;
   }
   .bottom {
     flex-direction: column;
