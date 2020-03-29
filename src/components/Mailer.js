@@ -9,17 +9,19 @@ const Mailer = () => {
   const [mailSent, setMailSent] = useState();
 
   const handleSubmit = e => {
+    const payload = {
+      name,
+      email,
+      message
+    };
+
     e.preventDefault();
-    fetch(``, {
+    fetch(`http://localhost:3001/contact`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
       },
-      body: {
-        name,
-        email,
-        message
-      }
+      body: JSON.stringify(payload)
     }).then(res => console.log(res));
   };
 
