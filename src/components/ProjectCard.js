@@ -6,29 +6,21 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 export default class ProjectCard extends React.Component {
   render() {
     return (
-      <div className="project-container">
-        <div className="carousel-container">
-          <div className="project-name">{this.props.name}</div>
-          <Carousel
-            showThumbs={false}
-            showIndicators={false}
-            showStatus={false}
-          >
-            {this.props.images.map(image => (
-              <div className="project-image-container">
-                <img className="project-image" src={image} />
-              </div>
-            ))}
-          </Carousel>
+      <a href={this.props.link} target="_blank">
+        <div className="project-container">
+          <img
+            src={this.props.face}
+            alt="card-face"
+            height="400px"
+            width="400px"
+          />
+          <div className="project-desc">
+            <div className="project-desc__line">{this.props.desc[0]}</div>
+            <div className="project-desc__line">{this.props.desc[1]}</div>
+            <div className="project-desc__line">{this.props.desc[2]}</div>
+          </div>
         </div>
-        <div className="project-desc-container">
-          <div className="project-desc">{this.props.desc[0]}</div>
-          <ul>
-            <li className="bullet">{this.props.desc[1]}</li>
-            <li className="bullet">{this.props.desc[2]}</li>
-          </ul>
-        </div>
-      </div>
+      </a>
     );
   }
 }

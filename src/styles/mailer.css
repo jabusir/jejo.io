@@ -1,6 +1,7 @@
 .mailer {
   max-width: 420px;
   margin: 0 auto;
+  color: white;
 }
 p {
   text-align: center;
