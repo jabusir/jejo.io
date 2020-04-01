@@ -10,7 +10,7 @@ const Mailer = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    fetch(``, {
+    fetch(`http://localhost:3001/contact`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

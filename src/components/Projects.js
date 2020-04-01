@@ -1,10 +1,9 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import Particles from "react-particles-js";
 
 import "../styles/projects.css";
 
-export default class extends React.Component {
+export default class Projects extends React.Component {
   state = {
     projects: [
       {
