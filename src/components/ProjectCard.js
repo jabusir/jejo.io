@@ -5,7 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 export default class ProjectCard extends React.Component {
   render() {
     return (
-      <a href={this.props.link} target="_blank">
+      <a href={this.props.link} target="_blank" rel="noopener noreferrer">
         <div className="project-container">
           <img
             src={this.props.face}
